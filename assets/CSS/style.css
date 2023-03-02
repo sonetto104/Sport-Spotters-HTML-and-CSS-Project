@@ -4,3 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
+/* Eliminate  Margin, Border and Padding as Default */
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
