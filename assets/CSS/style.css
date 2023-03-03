@@ -75,6 +75,23 @@ body {
             text-decoration: underline;
         }
 
+    .welcome-blurb {
+        display: none;
+    }
+
+    #hero-image-div {
+        height: 55vh;
+    }
+
+    #hero-flex-container {
+        height: 100%;
+
+    }
+
+    #hero-image {
+        height: 100%;
+        width: auto;
+    }
     
     
 }
