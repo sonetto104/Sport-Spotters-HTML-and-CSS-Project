@@ -85,12 +85,13 @@ body {
 
     #hero-flex-container {
         height: 100%;
-
+        min-height: 55vh;
     }
 
     #hero-image {
-        height: 100%;
-        width: auto;
+        height: 55vh;
+        max-width: 100%;
+        object-fit: cover;
     }
     
     
