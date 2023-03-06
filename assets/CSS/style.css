@@ -126,4 +126,41 @@ body {
         object-fit: contain;
         margin: auto;
     }
+
+    #vacancies {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      
+      .grid-item {
+        position: relative;
+      }
+      
+      .image-container {
+        position: relative;
+      }
+      
+      .grid-image {
+        display: flex;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 20px;
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+      }
+      
+      .overlay:hover {
+        opacity: 1;
+      }
+      
 }
