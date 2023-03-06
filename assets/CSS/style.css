@@ -105,5 +105,25 @@ body {
     #what-we-do-div {
         text-align: center;
     }
+
+    .blue-text {
+        color: #2d2b42;
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
     
+    #swimmer-image-div {
+        height: 33vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #swimmer-image {
+        max-height: 33vh;
+        object-fit: contain;
+        margin: auto;
+    }
 }
