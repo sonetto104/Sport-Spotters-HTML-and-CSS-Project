@@ -28,14 +28,15 @@ body {
     #links-div {
         height: 67%;
         margin-top: 1.5em;
+        padding-top: 1em;
     }
 
     h1 {
         font-family: 'Lobster', cursive;
         color: #ffffff;
-        font-size: 1.5em;
-        margin: 0.5em;
-        padding: 0;
+        font-size: 2em;
+        margin: auto;
+        padding-left: 0.5em;
         font-weight: 400;
     }
 
@@ -43,8 +44,8 @@ body {
         font-family: 'Lobster', cursive;
         color: #ffffff;
         font-size: 1.1em;
-        margin: 0.4em;
-        padding: 0; 
+        margin: auto;
+        padding-left: 1em; 
         font-weight: 200;
     }
 
@@ -102,16 +103,26 @@ body {
         object-fit: cover;
     }
     
+    #what-we-do-section {
+        background: #2d2b42;
+        padding-bottom: 1em;
+    }
+
     #what-we-do-div {
         text-align: center;
     }
 
-    .blue-text {
-        color: #2d2b42;
+    #what-we-do-div > p {
+        color: white;
+    }
+
+    .white-text {
+        color: white;
         text-align: center;
         font-size: 1.5em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 1em;
+        margin-top: 0;
+        padding-left: 0;
     }
     
     #swimmer-image-div {
@@ -119,6 +130,7 @@ body {
         margin: auto;
         display: flex;
         justify-content: center;
+        background-color: #2d2b42;
     }
 
     #swimmer-image {
@@ -127,8 +139,15 @@ body {
         margin: auto;
     }
 
+    #vacancies-heading {
+        color:#2d2b42;
+        padding-top: 1em;
+        text-align: center;
+        font-size: 1.5em;
+        padding-left: 0;
+    }
+
     .grid-container {
-        margin-top: 2em;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -178,4 +197,25 @@ body {
         transition: transform 0.5s ease-in-out;   
     }
       
+    #footer-div {
+        margin-top: 1em;
+        text-align: center;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    li {
+        margin: auto;
+        display: flex;
+        color: #2d2b42;
+        font-size: 1.5em;
+        text-align: center;
+    }
 }
