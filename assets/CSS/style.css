@@ -10,6 +10,7 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: #2d2b42;
 }
 
 @media only screen and (min-width: 150px) {
@@ -27,7 +28,7 @@ body {
 
     #links-div {
         height: 67%;
-        margin-top: 1.5em;
+        margin-top: 2em;
         padding-top: 1em;
     }
 
@@ -90,6 +91,8 @@ body {
 
     #hero-image-div {
         height: 55vh;
+        margin-bottom: 2em;
+        margin-top: 1.5em;
     }
 
     #hero-flex-container {
@@ -121,6 +124,7 @@ body {
         text-align: center;
         font-size: 1.5em;
         padding-top: 1em;
+        padding-bottom: 1em;
         margin-top: 0;
         padding-left: 0;
     }
@@ -137,6 +141,10 @@ body {
         max-height: 33vh;
         object-fit: contain;
         margin: auto;
+    }
+
+    #vacancies {
+        background-color: white;
     }
 
     #vacancies-heading {
@@ -203,6 +211,7 @@ body {
         margin: auto;
         padding-top: 1em;
         padding-bottom: 1em;
+        background-color: white;
     }
 
     ul {
