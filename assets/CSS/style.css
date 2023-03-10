@@ -13,6 +13,10 @@ body {
     background-color: #2d2b42;
 }
 
+/* Styling for index.html at 150px */
+
+/*Header Section */
+
 @media only screen and (min-width: 150px) {
 
     #header-div {
@@ -50,6 +54,8 @@ body {
         font-weight: 200;
     }
 
+/* General Text Settings */
+
     p {
         font-family: 'Signika', sans-serif;
         color: #2d2b42;
@@ -57,6 +63,8 @@ body {
         font-size: 1em;
         padding: 0;
     }
+
+    /* Hover Animation */
 
     a:link {
         color: inherit;
@@ -85,6 +93,9 @@ body {
             text-decoration: underline;
         }
 
+
+    /* Hero Image Section */
+
     .welcome-blurb {
         display: none;
     }
@@ -106,6 +117,8 @@ body {
         object-fit: cover;
     }
     
+    /*What We Do Section */
+
     #what-we-do-section {
         background: #2d2b42;
         padding-bottom: 1em;
@@ -142,6 +155,8 @@ body {
         object-fit: contain;
         margin: auto;
     }
+
+    /* Vacancies Section and Grid Container */
 
     #vacancies {
         background-color: white;
@@ -204,6 +219,8 @@ body {
         margin: auto;
         transition: transform 0.5s ease-in-out;   
     }
+
+    /* Footer Section */
       
     #footer-div {
         margin-top: 1em;
@@ -226,5 +243,55 @@ body {
         color: #2d2b42;
         font-size: 1.5em;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 205px) {
+
+    #heading {
+        max-width: 75vw;
+    }
+}
+
+@media only screen and (min-width: 254px) {
+
+    #header-div {
+        height: 20vh;
+    }
+
+    #links-div {
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    #hero-image-div {
+        margin-bottom: 0;
+    }
+
+    #swimmer-image-div {
+        height: 50vh;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    #swimmer-image {
+        max-height: 50vh;
+    }
+
+    .white-text {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+ 
+}
+
+@media only screen and (min-width: 320px) {
+
+    .nested-container {
+        width: 100vw;
+    }
+
+    .grid-item2 {
+        width: 80%;
     }
 }
