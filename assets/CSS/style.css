@@ -104,11 +104,15 @@ body {
         height: 55vh;
         margin-bottom: 2em;
         margin-top: 1.5em;
+        display: flex;
+        align-items: center;
     }
 
     #hero-flex-container {
         height: 100%;
         min-height: 55vh;
+        display: flex;
+        align-items: center;
     }
 
     #hero-image {
@@ -293,5 +297,18 @@ body {
 
     .grid-item2 {
         width: 80%;
+    }
+
+    /* #hero-image-div {
+        background-color: white;
+    } */
+
+    #hero-image {
+        border-radius: 50%;
+        height: 50vh;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
     }
 }
