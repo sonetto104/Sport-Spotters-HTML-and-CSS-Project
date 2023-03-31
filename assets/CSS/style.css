@@ -311,4 +311,14 @@ body {
         display: flex;
         align-items: center;
     }
+
+    .nested-container {
+        width: 100%;
+        place-items: center;
+    }
+
+    .grid-item2 {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
