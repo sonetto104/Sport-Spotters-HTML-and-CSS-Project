@@ -299,9 +299,27 @@ body {
         width: 80%;
     }
 
-    /* #hero-image-div {
+    #hero-image-div {
         background-color: white;
-    } */
+        padding-top: 2em;
+    }
+
+    #what-we-do-section {
+        background-color: white;
+    }
+
+    .white-text {
+        color: #2d2b42;
+    }
+
+    #what-we-do-div > p {
+        color: #2d2b42;
+        margin: 1.5em;
+    }
+
+    #swimmer-image-div {
+        background-color: white;
+    }
 
     #hero-image {
         border-radius: 50%;
@@ -320,5 +338,27 @@ body {
     .grid-item2 {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    #footer-div {
+        padding-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .welcome-blurb {
+        display: block;
+        background-color: white;
+    }
+
+    .welcome-blurb > h2 {
+        color: #2d2b42;
+        margin: 0;
+        padding: 1.5em;
+        font-weight: 100;
+        
     }
 }
