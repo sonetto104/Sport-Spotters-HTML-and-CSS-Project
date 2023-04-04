@@ -379,7 +379,7 @@ body {
 
     #hero-image-div {
         padding-top: 4em;
-        height: 800px;
+        height: 700px;
     }
 
     #hero-image {
@@ -406,6 +406,7 @@ body {
         margin: auto;
         text-align: center;
         height: 600px;
+        font-size: 200%;
     }
 
     .welcome-blurb > h2 {
