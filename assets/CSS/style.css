@@ -13,6 +13,12 @@ body {
     background-color: #2d2b42;
 }
 
+#hero-image-div {
+    justify-content: center;
+}
+
+
+
 /* Styling for index.html at 150px */
 
 /*Header Section */
@@ -349,9 +355,31 @@ body {
 
 @media only screen and (min-width: 400px) {
 
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .header-link {
+        font-size: 1.2em;
+    }
+
+    #header-div {
+        height: 25vh;
+    }
+
+    #links-div {
+        margin-top: 25px;
+    }
+
+    #hero-image-div {
+        padding-top: 4em;
+    }
+
     .welcome-blurb {
         display: block;
         background-color: white;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .welcome-blurb > h2 {
@@ -359,6 +387,36 @@ body {
         margin: 0;
         padding: 1.5em;
         font-weight: 100;
-        
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    #what-we-do-section {
+        background-color: #2d2b42;
+    }
+
+    #what-we-do-div > p {
+        color: white;
+        margin-top: 0;
+    }
+
+    .white-text {
+        color: white;
+        font-size: 2em;
+    }
+
+    #vacancies-heading {
+        font-size: 2em;
+    }
+
+    #swimmer-image-div {
+        background-color: #2d2b42;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+
+    .welcome-blurb > h2 {
+        padding-top: 0.75em;
     }
 }
