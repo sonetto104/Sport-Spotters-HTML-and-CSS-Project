@@ -534,3 +534,107 @@ body {
     
 }
 
+@media only screen and (min-width: 950px) {
+
+    #header-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+       
+    #heading  {
+        display: flex;
+    }
+
+    #logo {
+        font-size: 300%;
+        letter-spacing: 2px;
+        margin-left: 30px;
+        padding-top: 15px;
+        display: flex;
+        }
+
+    #links-div {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+        margin-right: 50px;
+        text-align: right;
+        justify-content: right;
+        width: 55vw;
+    }
+
+    h2.header-link {
+        font-size: 2em;
+    }
+
+    .hero-flex-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .welcome-blurb {
+        align-items: center;
+        padding: 0;
+        text-align: right;
+        
+    }
+
+    #hero-image-div {
+        height: 600px;
+        padding: 0;
+    }
+
+    .question {
+        margin-right: 100px;
+    }
+ 
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .nested-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #footer-div {
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 1.5em;
+    }
+
+    .socials {
+        height: 110px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    #what-we-do-div {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #what-do-p.special{
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .white-text {
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    #swimmer-image-div {
+        width: 60%;
+    }
+
+    #vacancies-heading {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 2.5em;
+    }
+}
+
