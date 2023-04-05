@@ -69,6 +69,10 @@ body {
         padding: 0;
     }
 
+    #what-do-p.special {
+        color: white;
+    }
+
     /* Hover Animation */
 
     a:link {
@@ -108,8 +112,6 @@ body {
     #hero-image-div {
         height: 55vh;
         margin-bottom: 2em;
-        /* margin-top: 1.5em;
-        display: flex; */
         align-items: center;
     }
 
@@ -125,11 +127,6 @@ body {
         max-width: 100%;
         object-fit: cover;
     }
-
-    /* .welcome-blurb-hidden {
-        display: none;
-    }
-     */
     
     /*What We Do Section */
 
@@ -194,7 +191,6 @@ body {
     }
 
     .grid-item {
-        /* height: 33vh; */
         margin-top: 2em;
         margin-left: 1em;
         margin-right: 1em;
@@ -203,7 +199,6 @@ body {
     }
 
     .grid-image {
-        /* min-height: 33vh; */
         object-fit: cover;
         max-width: 130%;
         opacity: 0.5;
@@ -263,9 +258,44 @@ body {
         font-size: 1.5em;
         text-align: center;
     }
+
+    /* Available Sports Page What We Offer Section */
+
+    .available-sports-container {
+        height: 600px;
+        background-color: white;
+        text-align: center;
+    }
+
+    #soccerman {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #soccerman-image {
+        padding-top: 30px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .blue-text {
+        color: #2d2b42;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 205px) {
+
 
     #heading {
         max-width: 75vw;
@@ -307,6 +337,7 @@ body {
 
 @media only screen and (min-width: 320px) {
 
+
     .nested-container {
         width: 100vw;
     }
@@ -328,7 +359,7 @@ body {
         color: #2d2b42;
     }
 
-    #what-we-do-div > p {
+    #what-do-p.special {
         color: #2d2b42;
         margin: 1.5em;
     }
@@ -360,6 +391,14 @@ body {
         padding-top: 2em;
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    .blue-paragraph {
+        margin: 1.5em;
+    }
+
+    .blue-text {
+        padding-top: 1.5em;
     }
 }
 
@@ -479,6 +518,21 @@ body {
     #header-div {
         margin-bottom: 50px;
     }
+
+    .blue-text {
+        font-size: 2.5em;
+        padding-bottom: 1em;
+    }
+
+    .blue-paragraph {
+        font-size: 1.5em;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .available-sports-container {
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 520px) {
@@ -531,6 +585,29 @@ body {
     }
 
     #swimmer-image {
+        object-fit: cover;
+        display: flex;
+        max-height: 80vh;
+        padding-bottom: 50px;
+    }
+
+    .available-sports-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        height: auto;
+    }
+
+    #soccerman {
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        height: 100%;
+        width: 40%;
+        overflow: hidden;
+    }
+
+    #soccerman-image {
         object-fit: cover;
         display: flex;
         max-height: 80vh;
@@ -649,5 +726,31 @@ body {
         max-width: 130%;
         min-height: 100%;
     }
+
+    .available-sports-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .blue-paragraph{
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .blue-text {
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    #soccerman {
+        width: 60%;
+    }
 }
 
+@media only screen and (min-width: 800px) {
+
+    #hero-image {
+        height: 450px;
+        width: 450px;
+    }
+}
