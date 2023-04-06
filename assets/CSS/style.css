@@ -329,7 +329,7 @@ body {
 @media only screen and (min-width: 254px) {
 
     #header-div {
-        height: 20vh;
+        height: 22vh;
         margin-bottom: 25px;
     }
 
@@ -437,7 +437,7 @@ body {
     }
 
     #header-div {
-        height: 25vh;
+        height: 28vh;
     }
 
     #links-div {
