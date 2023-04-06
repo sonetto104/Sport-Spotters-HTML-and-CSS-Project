@@ -511,6 +511,15 @@ body {
     #swimmer-image-div {
         background-color: #2d2b42;
     }
+
+    .available-sport-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sport-div-img {
+        max-width: 80%;
+    }
 }
 
 @media only screen and (min-width: 500px) {
