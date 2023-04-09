@@ -589,6 +589,7 @@ body {
 
     #header-div {
         height: auto;
+        border-bottom: 15px solid #2d2b42;
     }
 
     #header-div.header2 {
@@ -827,4 +828,198 @@ body {
         height: 450px;
         width: 450px;
     }
+}
+
+/* Signup From */
+
+@media screen and (min-width: 150px) {
+
+.signup-form {        
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;     
+    background-color: #2d2b4210;
+    border-radius: 10px;
+    width: 100%;
+    }
+    
+
+.label {
+    padding-left: 25px;
+    display: block;
+}
+
+.text-input {
+    max-width: 75%;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: solid #2d2b42;
+}
+
+.select-input {
+    max-width: 75%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: solid #2d2b42;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+}
+
+.text-input {
+    max-width: 75%;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: solid #2d2b42;
+}
+
+.email, .phone-number {
+    max-width: 75%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: solid #2d2b42;
+}
+
+#availability-boxes {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    border: solid #2d2b42;
+    display: block;
+}
+
+#check-label.check-label {
+    padding-top: 50px;
+}
+
+.checkboxes {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    row-gap: 5px;
+    padding: 25px 0px 0px 0px;
+    justify-content: left;
+}
+
+.box-li {
+    list-style-type: none;
+    display: block;
+    font-size: 0.8em;
+    padding-right: 50px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: #2d2b42;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0;
+}
+
+ input {
+    max-width: 75%;
+ }
+
+ .label, #radio-label.radio-label, #check-label.check-label {
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+ }
+
+ #radio {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+ }
+
+ .radio-input {
+    max-width: 75%;
+    margin-top: 25px;
+ }
+
+ .radio-label {
+    display: block;
+ }
+
+ .submit-button {
+    font-family: 'Signika Negative', sans-serif;
+    color: #2d2b42;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: #2d2b42 solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+ }
+
+ .invite-playlist {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.invite-text {
+    text-align: center;
+}
+
+#invite2 {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.playlist {
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 500px) {
+
+    .checkboxes {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        row-gap: 5px;
+        margin: 25px 0px 25px 0;
+        padding: 0 0 0 10%;
+    }
+
+}
+
+@media screen and (min-width: 650px) {
+
+#signup-invite {
+    display: flex;
+    width: 100%;
+}
+
+#invite1 {
+    width: 50vw;
+}
+
+}
+
+@media screen and (min-width: 820px) {
+
+    .signup-form {
+        width: 65%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+.checkboxes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    row-gap: 5px;
+    padding: 25px 25px 0px 0px;
+}
+
 }
