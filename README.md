@@ -1,108 +1,201 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## README Document for Code Institute Portfolio Project 1 "Sport Spotters"
 
-Welcome sonetto104,
+## Purpose
+"Sport Spotters" was constructed as a requirement for Code Institute's Diploma in Full Stack Software Development course. Its purpose is to show that I have achieved a basic command of HTML and CSS languages, and that I can combine the two to create a three-page static website.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+In its imagined context, Sport Spotters is a service that connects people in London who are looking to take up sport at a social level with clubs or classes suited to their needs. Users are invited to fill out a sign-up form detailing their past sporting experience, availability, contact details, postcode, sport of interest, any relevant health conditions and willingness to travel. Sport Spotters would then connect them with an ideally suited sports club based on the information provided.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Imagined User Stories Informing Purpose
+This service would be primarily aimed at people who work full-time but want to be physically active, people who may have been active in sport before and want to revisit it, people who are new to London or people who simply want to try a new activity and don't know where to begin.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+Working full-time in a major city is demanding and often requires spending significant amounts of time commuting. With many responsibilities  outside of work to take care of, taking the time to research where one could take up sport regularly can be difficult, even if one would really like to. In a city of London's size and population, it is also easy to be overwhelmed by too much information. These could be factors that may discourage someone from taking the leap into sport, even if they feel they may be lacking community outside of work or aren't physically active enough.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Moving to a new city is very daunting, and despite community-building being one of the most important factors in creating and maintaining wellbeing, it is something that can easily be neglected when one has to take care of a new home, new job, the new administrative responsibilities that accompany this and even simple problems like learning how to get around.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Value Provided to Users by Sport Spotters
+Sport Spotters would be a service to take care of those obstacles that prevent someone from joining a new sports club. If one is too tired or time-pressed from work, or is bamboozled by the sheer amount of choice in London, this service would remove the greater part of the mental energy, effort and research required to make a decision on where to start.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Technologies Used
+For this project I used GitHub to both host and deploy my repository. GitHub's built in code editor allowed me to make a primarily HTML site. I made an external style sheet in using CSS and linked it to the website's HTML files to style each webpage. Media queries were used in the CSS style sheet to make sure the website is responsive to differing screen sizes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design
 
-------
 
-## Release History
+***Layout and General Structure***
+To begin with, I had an initial rough mental image of how the three pages of the site would look as represented by the photos inserted here and I largely stuck to that.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Rough Layout of Home Page](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/homepagelayout1.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Rough Layout of Home Page Continued](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/homepagelayout2.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Rough Layout of Available Sports Page](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablesportspagelayout.jpg)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Rough Layout of Available Sports Page Continued](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablesportspagelayout2.jpg)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Rough Layout of Signup Page](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/signuplayout.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+***Colour Scheme***
+I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/README%20Images/sportspottershome.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Sport Spotters What We Do Section](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablesportsscreenshot.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+***Fonts***
+The fonts used were Lobster and Signika, both of which I took from Google Fonts. I used Lobster for the logo and headings as I wanted a font that felt lighthearted and friendly without seeming childish. Signika was a more appropriate neutral font for the rest of the text elements to make them easily legible.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+***Grid and Flex Layouts***
+I used grid and flex layouts to arrange images and text in a way that adds visual variety to the site while maintaining balance between visual elements. These layouts are also responsive to screen size. I've attached screenshots of some of these layouts below so you can see how they change depending on screen size.
 
-**How will this affect me?**
+![Availability Page Larger Grid Layout](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablepagelargegrid.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Availability Page Smaller Grid Layout](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/homepagesmallgrid.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+![Home Page Larger Grid Layout](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/homepagelargegrid.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+![Home Smaller Grid Layout](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablepagesmallgrid.png)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+***Images***
+All the images for this project were taken from www.pexels.com. Using one source for images allowed me to choose images that were consistent in tone. It was important to me that images conveyed a sense of enjoyment in sport, and that they looked like they could at least potentially have been taken in London where Sports Spotters would be based.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+## Project Features
 
-Happy coding!
+Rather than listing item section by section, I will here list what I think the most important feature of the site are based on both function and visual appeal.
+
+***Header***
+The header is one of the most important parts of this site. It immediately states the site's colour scheme, contains the logo and contains the navigation elements. In terms of visual appeal, it also introduces the font for headings and each text element has a "grow" effect when hovered over. In terms of providing value to the user, it clearly sign posts the three pages of the website and states their purpose.
+
+
+![Header](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/header.png)
+
+
+***Vacancies Grid***
+On the home page or "About Us" page, there is a grid displaying some sports clubs that currently have some vacancies. From the perspective of visual appeal, the grid layout and images are pleasing. There is a dark translucent background effect on the images created by using z-positioning to overlap a partially opaque black div with the images in the grid. This also allows a contrast between the background image and foreground text. The text also has a grow effect like the links in the header. In terms of adding value for a user, it alerts a user to the very possibility of enacting their purpose for visiting the site in the first place. Seeing what may be immediately available may bring them one step closer to joining a sport.
+
+
+![Vacancies Grid on "About Us" Page](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/homepagelargegrid.png)
+
+
+***Footer***
+The footer contains icons which act as links to Sport Spotters would-be social media. Visually, the icons communicate much more economically than words. In terms of adding value for a user, they would allow the user to connect with the wider Sport Spotters community (if it existed).
+
+![Footer](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/footer.png)
+
+
+***Available Sports List***
+The list of available sports acts as a starting point for someone who is interested in trying out sport but may be drawing a blank on where to start. The value of it for a user is that gives one ideas of what they might like if they don't already know. It also invites them to consider what might possibly be available. 
+
+
+
+![Available Sports List](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availabilitylist.png)
+
+
+***Spotify Playlist***
+On the Sign Up page, there is a widget that allows one to play music from a Spotify playlist. I found a workout inspired playlist to fit in with the theme of the site. Truthfully, I do not think there is really a need for this in the website nor is it music I would want to listen to myself. I have included it because part of the learning objectives was to design a site where the user had control over playing video or audio. If we imagine a scenario where this might fit ideally into some part of an expanded Sport Spotters website, this may give the user some workout inspiration.
+
+
+![Spotify Playlist](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/spotifyplaylist.png)
+
+
+***Sign-Up Form***
+The sign-up form is an important feature of the site. In visual terms, it is consistent with the colour and font schemes. Using several different types of inputs, some required more styling than others, such as the checkboxes that indicate a user's availability or the radio boxes that indicate how far they might be willing to travel. The layout was achieved using grid dispaly again and the inputs are responsive to screen size. As this site is for learning purposes and I won't be handling any data, information from the submitted form will be sent to the Code Institute form dump from the Love Running walkthrough project. In terms of providing value to the user, it allows the user to provide the information that makes the Sport Spotters service actually possible, and it ensures that the service is catered specifically to them.
+
+
+![Sign-Up Form](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/signupform.png)
+
+***Aria Labels***
+Almost all non-text elements have aria labels where appropriate in the site. This makes the site accessible to those who may be visually impaired.
+
+
+## Testing ##
+
+***HTML and CSS Testing***
+
+All HTML files and the CSS style sheet were tested using the W3C Validator and Jigsaw Validator. Some warnings and errors were noted. I corrected these errors and retested. The HTML files and CSS style sheet passed the validation without errors or warnings.
+
+
+***Manual Testing***
+
+In terms of manual tests I:
+   1. Checked that all the header links on each of the 3 pages worked.
+   2. Checked that all of the footer links on each of the 3 pages worked and opened in a new tab.
+   3. Checked that the Sign-Up form worked and sent data to the Code Institute form dump.
+   4. Checked that there were no overlapping text or visual elements at varied screen sizes, and checked that there were no disappearing elements at varied screen
+   sizes.
+   5. Checked that the website loads in Google Chrome, Microsoft Edge and Mozilla Firefoz web browsers.
+   6. Used https://ui.dev/amiresponsive and www.responsinator.com to see if the site worked in mobile view.
+   
+## Deployment ##
+
+
+***How I Deployed the Project***
+
+After validating my HTML and CSS with the W3C validators, it was time to deploy the project. To do this I visited my repository and pressed on the settings button. This brought me to a new page. On this new page there is a menu on the left hand side of the page. I clicked on the "Pages" option from this menu. Under "Source", I selected "main" as the branch from which to deploy the project from. I then clicked "Save" which automatically refreshed the page. After the few minutes required for Github to build the website, a link for the website appeared on this page.
+
+
+***How to Run This Project From a Browser***
+
+1. Install Google Chrome or Mozilla Firefox.
+2. Install the Gitpod browser extension for your chosen browser.
+3. Create a GitHub account and log into it.
+4. Visit the repository for this project. It is called sonetto104/CI-PP1-Peter-Regan. You can also use this link to visit it: https://github.com/sonetto104/CI-PP1-Peter-Regan
+5. Open this repository in Gitpod by clicking the green Gitpod button at the top right of the repository.
+6. This will open a new workspace with the current state of the main branch of this repository.
+
+
+***How to Run This Project Locally***
+
+***Cloning the Repository***
+1. Visit the Sport Spotters repository: https://github.com/sonetto104/CI-PP1-Peter-Regan
+2. Click the "Code" dropdown box above the repository's file explorer and select the "Local" heading.
+3. Underneath this, click the HTTPS subheading if it's not already selected.
+4. Copy the link presented in the text field below this HTTPS subheading.
+5. Open your preferred IDE and make sure it has support for Git.
+6. Open the terminal, and create a directory where you can store the repository.
+7. Type git clone and paste the previously copied text and press enter.
+8.The repository will then be cloned to your selected directory.
+
+
+***Manually Downloading the Repository***
+1. Visit Sport Spotters GitHub repository: https://github.com/sonetto104/CI-PP1-Peter-Regan
+2. Click the "Code" dropdown box next to the green Gitpod icon.
+3. Click the "Download ZIP" option; this will download a copy of the selected branch's repository as a zip file.
+4. Find the downloaded file on your your computer, and extract the ZIP to the folder where you would like to store the repository.
+
+
+After either cloning or downloading the repository, you can have offline access to it by navigating to the directory where it was stored in your IDE.
+
+
+## Code From External Sources ##
+
+The code used to create the grow effect on the hero image, navigation elements, footer links and grid text came from this source: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
+
+The code I used as a basis to inform how to make grid layouts came from this source: https://www.w3schools.com/css/css_grid.asp
+
+Though I did not copy code directly from this source, I used this source as a starting point in learning how to use flex display: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+The code used to generate the social media icons used in the footer came from https://fontawesome.com/
+
+The code used to embed the Spotify widget was automatically generated by https://open.spotify.com/. I selected the "Embed playlist" option in the menu generated by clicking "Share" beneath a playlist.
+
