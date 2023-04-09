@@ -48,7 +48,7 @@ To begin with, I had an initial rough mental image of how the three pages of the
 
 
 ***Colour Scheme***
-I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/README%20Images/sportspottershome.png)
+I used primarily navy and white for the website. This was in order to make sure elements could be easily contrasted but without making the mood of the website too severe. The site aims to make users feel positive and lighthearted about sport after all. ![Screenshot of Sport Spotters Homepage](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/sportspottershome.png)
 
 
 ![Sport Spotters What We Do Section](https://github.com/sonetto104/Sport-Spotters-HTML-and-CSS-Project/blob/main/assets/readmeimages/availablesportsscreenshot.png)
