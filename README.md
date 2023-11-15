@@ -1,6 +1,6 @@
 ## README Document for Code Institute Portfolio Project 1 "Sport Spotters"
 
-![Live Site](https://sonetto104.github.io/Sport-Spotters-HTML-and-CSS-Project/)
+[Live Site](https://sonetto104.github.io/Sport-Spotters-HTML-and-CSS-Project/)
 
 ## Purpose
 "Sport Spotters" was constructed as a requirement for Code Institute's Diploma in Full Stack Software Development course. Its purpose is to show that I have achieved a basic command of HTML and CSS languages, and that I can combine the two to create a three-page static website.
